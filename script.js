@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize Typewriter Effect
     if (document.getElementById('typewriter')) {
         const typed = new Typed('#typewriter', {
-            strings: ["Emmanuel Christopher M. Pagulayan", "Embedded Systems Developer", "Automation Engineer", "Tech Enthusiast"],
+            strings: ["Emmanuel Christopher M. Pagulayan", "Aspiring Developer", "Automation Engineer", "Tech Enthusiast"],
             typeSpeed: 50,
             backSpeed: 30,
             loop: true,
