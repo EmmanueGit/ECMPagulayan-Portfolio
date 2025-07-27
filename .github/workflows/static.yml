@@ -19,16 +19,16 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4
         with:
-          path: "."  # Adjust this if your site is in a subfolder like 'dist' or 'build'
+          path: "."  # Change this if your site files are inside a folder like 'dist' or 'build'
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
