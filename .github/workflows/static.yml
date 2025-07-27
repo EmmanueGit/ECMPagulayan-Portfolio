@@ -26,9 +26,9 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
-          path: "."  # Change this if your site files are inside a folder like 'dist' or 'build'
+          path: "."  # Change this to your build folder if needed (e.g., 'dist' or 'build')
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2
